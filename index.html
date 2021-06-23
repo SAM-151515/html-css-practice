@@ -7,63 +7,97 @@
 <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comfortaa:wght@700&display=swap" rel="stylesheet">
 
 <style>
+body
+{
+color: #5FB497; 
+background-color: #5FB497; 
+font-family: 'Balsamiq Sans', cursive;
+}
+
 .nav-bar
 {
-background-color: #82C4B0;
-list-style: none;
+margin: 0px;
 height: 25px;
 padding: 25px;
-margin: 0px;
+list-style: none;
 border-radius: 25px;
+background-color: #82C4B0;
 }
 
 .sam
 {
-list-style: none;
 float: right; 
+color: #F4FBF8; 
+list-style: none;
+padding-top: 5px;
 padding-right: 10px; 
 font-family: 'Comfortaa', cursive; 
-color: #F4FBF8; 
-padding-top: 5px;
 }
 
 a
 {
+float: left;
+color: #F4FBF8;
+padding-top: 4px;
+padding-left: 10px;
+padding-right: 30px;
+text-decoration: none;
 transition-duration: 1s;
 font-family: 'Comfortaa', cursive;
-float: left;
-padding-top: 4px;
-padding-right: 30px;
-padding-left: 10px;
-text-decoration: none;
-color: #F4FBF8;
 }
 
 a:hover
 {
+color: #F4FBF8;
+font-size: 124%;
 padding-top: 3px;
+text-decoration: none;
 transition-duration: 1s;
 font-family: 'Comfortaa', cursive;
-font-size: 124%;
-color: #F4FBF8;
-text-decoration: underline;
 }
 
 .content
 {
-margin-top: 10px;
 padding: 20px;
-background-color: #F4FBF8;
+margin-top: 10px;
 border-radius: 25px;
+background-color: #F4FBF8;
+}
+
+.left-par
+{
+width: 46.63%; 
+display: inline-block
+}
+
+.right-par
+{
+width: 46.63%; 
+float: right;
 }
 
 .foot-bar
 {
 margin-top: 10px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .left-par {
+    width: 100%;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .right-par {
+    width: 100%;
+    margin-left: 5px;
+  }
+}
+
 </style>
 
-<body style="color: #5FB497; background-color: #5FB497; font-family: 'Balsamiq Sans', cursive;">
+<body>
 
 <div>
   <ul class="nav-bar">
@@ -86,7 +120,8 @@ Sed tempus urna et pharetra. Magna eget est lorem ipsum dolor sit amet consectet
 Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Bibendum arcu vitae elementum curabitur vitae nunc. Commodo nulla facilisi nullam vehicula ipsum a arcu. Id aliquet risus feugiat in ante metus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Ac turpis egestas sed tempus. Dignissim convallis aenean et tortor. Turpis massa tincidunt dui ut ornare lectus sit amet. Suspendisse in est ante in nibh. Eget arcu dictum varius duis at consectetur lorem.</p>
 </div>
 
-<div class="content" style="width: 46.63%; display: inline-block">
+
+<div class="content left-par">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. In pellentesque massa placerat duis ultricies. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Condimentum mattis pellentesque id nibh tortor id aliquet. Dictum at tempor commodo ullamcorper a. Nulla facilisi etiam dignissim diam. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eu consequat ac felis donec. Proin libero nunc consequat interdum.
 
 Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. Placerat orci nulla pellentesque dignissim enim. Turpis tincidunt id aliquet risus feugiat. Eu augue ut lectus arcu. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Consequat semper viverra nam libero justo laoreet sit amet cursus. Purus sit amet volutpat consequat mauris. Gravida rutrum quisque non tellus. Scelerisque purus semper eget duis at tellus at urna. Fermentum dui faucibus in ornare quam viverra. Viverra adipiscing at in tellus integer. Tristique senectus et netus et.
@@ -98,7 +133,8 @@ Sed tempus urna et pharetra. Magna eget est lorem ipsum dolor sit amet consectet
 Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Bibendum arcu vitae elementum curabitur vitae nunc. Commodo nulla facilisi nullam vehicula ipsum a arcu. Id aliquet risus feugiat in ante metus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Ac turpis egestas sed tempus. Dignissim convallis aenean et tortor. Turpis massa tincidunt dui ut ornare lectus sit amet. Suspendisse in est ante in nibh. Eget arcu dictum varius duis at consectetur lorem.</p>
 </div>
 
-<div class="content" style="width: 46.63%; float: right;">
+
+<div class="content right-par">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. In pellentesque massa placerat duis ultricies. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Condimentum mattis pellentesque id nibh tortor id aliquet. Dictum at tempor commodo ullamcorper a. Nulla facilisi etiam dignissim diam. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eu consequat ac felis donec. Proin libero nunc consequat interdum.
 
 Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. Placerat orci nulla pellentesque dignissim enim. Turpis tincidunt id aliquet risus feugiat. Eu augue ut lectus arcu. Tellus in metus vulputate eu scelerisque felis imperdiet proin fermentum. Consequat semper viverra nam libero justo laoreet sit amet cursus. Purus sit amet volutpat consequat mauris. Gravida rutrum quisque non tellus. Scelerisque purus semper eget duis at tellus at urna. Fermentum dui faucibus in ornare quam viverra. Viverra adipiscing at in tellus integer. Tristique senectus et netus et.
@@ -111,7 +147,7 @@ Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Bibendum arc
 </div>
 
 <div class="foot-bar">
-    <li class="sam" style="margin-bottom: 15px;">Practiced with ☕ by SAM151515</li>
+    <li class="sam" style="margin-bottom: 15px;">Made with ☕ by SAM151515</li>
 </div>
 
 </body>
