@@ -64,16 +64,23 @@ border-radius: 25px;
 background-color: #F4FBF8;
 }
 
-.left-par
+.flex-container
 {
-width: 46.63%; 
-display: inline-block
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+justify-content: space-between;
 }
 
-.right-par
+.flex-container > div
 {
-width: 46.63%; 
-float: right;
+padding: 20px;
+margin-top: 10px;
+border-radius: 25px;
+display: inline-block;
+width: 46.65%;
 }
 
 .foot-bar
@@ -82,20 +89,8 @@ margin-top: 10px;
 }
 
 @media only screen and (max-width: 1024px) {
-  .left-par {
-    width: 89.80%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .right-par {
-    width: 89.780%;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .nav-bar {
-    width: 0;
+  .flex-container > div {
+    width: 100%;
   }
 }
 
@@ -110,8 +105,8 @@ margin-top: 10px;
     <li><a href="#products">Products</a></li>
     <li class="sam">SAM151515</li>
   </ul>
-    
 </div>
+
 <div class="content">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. In pellentesque massa placerat duis ultricies. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Condimentum mattis pellentesque id nibh tortor id aliquet. Dictum at tempor commodo ullamcorper a. Nulla facilisi etiam dignissim diam. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eu consequat ac felis donec. Proin libero nunc consequat interdum.
 
@@ -125,6 +120,7 @@ Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Bibendum arc
 </div>
 
 
+<div class="flex-container">
 <div class="content left-par">
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae nunc sed velit dignissim sodales. In pellentesque massa placerat duis ultricies. Cursus turpis massa tincidunt dui ut ornare lectus sit amet. Condimentum mattis pellentesque id nibh tortor id aliquet. Dictum at tempor commodo ullamcorper a. Nulla facilisi etiam dignissim diam. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eu consequat ac felis donec. Proin libero nunc consequat interdum.
 
@@ -148,6 +144,7 @@ Rhoncus est pellentesque elit ullamcorper dignissim cras. Venenatis lectus magna
 Sed tempus urna et pharetra. Magna eget est lorem ipsum dolor sit amet consectetur. Arcu bibendum at varius vel pharetra vel. In ante metus dictum at tempor. Odio morbi quis commodo odio. Cras sed felis eget velit aliquet sagittis id consectetur. Varius morbi enim nunc faucibus a pellentesque. Augue mauris augue neque gravida in. Nisi vitae suscipit tellus mauris a diam maecenas sed. Tristique magna sit amet purus gravida quis blandit. Placerat vestibulum lectus mauris ultrices eros. Cursus vitae congue mauris rhoncus. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae. Vel facilisis volutpat est velit egestas dui. Sit amet dictum sit amet justo donec enim diam.
 
 Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Bibendum arcu vitae elementum curabitur vitae nunc. Commodo nulla facilisi nullam vehicula ipsum a arcu. Id aliquet risus feugiat in ante metus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Ac turpis egestas sed tempus. Dignissim convallis aenean et tortor. Turpis massa tincidunt dui ut ornare lectus sit amet. Suspendisse in est ante in nibh. Eget arcu dictum varius duis at consectetur lorem.</p>
+</div>
 </div>
 
 <div class="foot-bar">
