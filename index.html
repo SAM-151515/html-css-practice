@@ -8,9 +8,10 @@
 
 <body class="minim-body">
 
+  <!-- NAVBAR -->
   <div class="nav-bar">
     <div class="brand">
-      <h1><img src="minim.svg" height="30px">inim</h1>
+      <span><img src="minim.svg" height="30px">inim</span>
     </div>
     <div class="nav-links">
       <ul>
@@ -23,57 +24,129 @@
 
   <hr>
 
+
+  <!-- 	QUOTE -->
   <div>
-    <p class="center">"Good <span class="font-heavy">design</span> is as little design as possible!"</p>
-    <p class="right">-Dieter Rams<p>
+    <div>
+      <p class="center">"Good <span class="font-heavy">design</span> is as little design as possible!"</p>
+      <p class="right">-Dieter Rams<p>
+	</div>
   </div>
 
   <hr>
 
+
+  <!-- INTRODUCTION -->
   <div>
     <p class="center margin-top">Introducing Minim.css, one of the most <span style="font-weight: 900;">Minim</span>alist CSS framework,<br>for Minimalists by a Minimalist.</p>
   </div>
 
   <hr>
+  
+  
+  <!-- FEATURES -->
  
-  <div id="features">
+  <div id="features"> 
     <div>
-    <h1 class="left">FEATURES</h1>
+      <h1 class="left">FEATURES</h1>
     </div>
-
     <div class="nav-bar">
       <div style="width:14rem;">
-        <h3 class="center">Customizable</h3>
+        <h2 class="center">Customizable</h2>
         <p>It's easy to use & highly customizable, just download & customize to your needs.</p>
       </div>
-
       <div style="width:14rem;">
-        <h3 class="center">Minimalism</h3>
+        <h2 class="center">Minimalism</h2>
         <p>Minim has a modern minimal style using only 2 colors & 2 font.</p>
       </div>
-
       <div style="width:14rem;">
-        <h3 class="center">Light Weight</h3>
+        <h2 class="center">Light Weight</h2>
         <p>It's less than 15kb! Light as a feather.</p>
-      </div>
-    </div>
+      </div>  
+    </div>	
   </div>
 
   <hr>
-
+  
+  <!-- DOCS -->
   <div id="docs">
     <divs>
       <h1>DOCS</h1>
     </div>
+
     <div>
-      <h2>INSTALLATION</h2>
+      <div>
+        <h2>INSTALLATION</h2>
+      </div>
+	
+      <div>
+        <p>Add the link below in your HTML file, or <a href="minim.rar" target="_blank">download</a> the CSS file to edit & make truly it truly yours.</p>
+      </div>
+      <div class="code">
+        <code>&ltlink rel="stylesheet" href="https://sam-151515.github.com/minim/minim.css"/&gt</code>
+      </div>
+	</div>
+
+    <hr>
+
+  <!-- TYPOGRAPHY -->
+    <div class="typography">
+      <div class="typography-info">   
+        <h2>TYPOGRAPHY</h2>
+        <p>Minim automatically applies web-safe fonts to your headings & paragraphs, you can see all the headings from &lth1&gt to &lth6&gt & &ltp&gt, &ltstrong&gt, &ltem&gt & &lta&gt tags below.</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>I am a sentence! :)</p>
+        <p><strong>I am a bold sentence!</strong></p>
+        <p><em>I am an Italic sentence!</em></p>
+        <p><a href="#">I am a Link?</a></p>
+        <p>I <strong>am</strong> <i>everything</i> <a href="#">maybe</a> ?</p>
+      </div>
+
+      <div class="code">
+        <code>
+          &lth1&gtHeading 1&lt/h1&gt <br>
+          &lth2&gtHeading 2&lt/h2&gt <br>
+          &lth3&gtHeading 3&lt/h3&gt <br>
+          &lth3&gtHeading 4&lt/h4&gt <br>
+          &lth3&gtHeading 5&lt/h5&gt <br>
+          &lth3&gtHeading 6&lt/h6&gt <br>
+          &ltp&gtI am a sentence! :)&lt/p&gt <br>
+          &ltp&gt&ltstrong&gtI am a bold sentence!&lt/strong&gt&lt/p&gt <br>
+          &ltp&gt&ltem&gtI am an Italic sentence!&lt/em&gt&lt/p&gt <br>
+          &ltp&gt&lta href="#"&gtI am a Link?&lt/a&gt&lt/p&gt <br>
+          &ltp&gtI &ltstrong&gtam&lt/strong&gt &ltem&gteverything&lt/em&gt &lta href="#"&gtmaybe&lt/a&gt ? &lt/p&gt
+        </code>
+      </div>
     </div>
-    <div>
-      <p>Add the link below in your HTML file, or <a href="minim.rar" target="_blank">download</a> the CSS file to edit & make truly it truly yours.</p>
-    </div>
-    <div class="code">
-      <code><span><</span>link rel="stylesheet" href="https://sam-151515.github.com/minim/minim.css"/<span>></span></code>
-    </div>
+
+    <hr>
+	  
+  <!-- BUTTON -->
+	<div>
+      <div>
+	    <h1>BUTTONS</h1>
+	  </div>
+	  <div>
+	    <p>Minim contains two styles of buttons- Filled & Outline Buttons.</p>
+	  </div>
+	  <div>
+	    <button class="button" onclick="alert('I am a Filled button')">Filled button</button>
+	  </div>
+	  <div>
+	    <button class="button-outline" onclick="alert('I am a Outline button')">Outline button</button>
+	  </div>
+    </div>	
+	<div class="code">
+	  <code>
+	    &ltbutton class="button" onclick="alert('I am a Filled button')"&gtFilled button&lt/button&gt <br>
+	    &ltbutton class="button-outline" onclick="alert('I am a Outline button')"&gtOutline button&lt/button&gt <br>
+	  </code>
+	</div>
   </div>
   
 
