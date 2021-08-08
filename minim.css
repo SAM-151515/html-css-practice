@@ -35,8 +35,11 @@ font-family: 'Unica One', cursive;
 }
 
 .brand  {
-  font-family: 'Unica One', cursive;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
+  font-size: 2em;
   display: inline-block;
+  margin: 21.440px 0;
 }
 
 .nav-links > ul > li  {
@@ -64,6 +67,10 @@ hr  {
 
 h1, h2, h3, h4, h5, h6  {
   font-family: 'Source Code Pro', monospace;
+}
+
+h1  {
+  font-size: 2.5rem;
 }
 
 .left  {
@@ -112,13 +119,17 @@ h1, h2, h3, h4, h5, h6  {
   color: #00A2CD;
 }
 
-.button {
-  border-radius: 20px;
-  color: #37474F;
-  padding: 5px;
-  font-family: 'lessregular';
-  background-color: #FAFAFA;
-  border: solid #37474F 5px;
+button  {
+	margin: 1rem;
+}
+
+.button{
+  border-radius: 15px;	
+  border: solid #EEEEEE 0.3rem;
+  color: #222831;
+  padding: 15px;
+  font-family: 'Noto Sans JP';
+  background-color: #EEEEEE;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -126,6 +137,26 @@ h1, h2, h3, h4, h5, h6  {
 }
 	
 .button:hover {
-  border: solid #FAFAFA 5px;
+  background-color: #393E46;
+  border: solid #393E46 0.3rem;
+  text-decoration: none;
+}
+
+.button-outline {
+  border-radius: 15px;
+  color: #EEEEEE;
+  padding: 15px;
+  font-family: 'Noto Sans JP';
+  background-color: #222831;
+  border: solid #EEEEEE 0.3rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+	
+.button-outline:hover {
+  border: solid #393E46 0.3rem;
+  color: #393E46;
   text-decoration: none;
 }
