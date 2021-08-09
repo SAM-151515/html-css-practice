@@ -4,16 +4,25 @@ LightBlack- #393E46
 Blue- #00ADB5
 White- #EEEEEE
 
-Strings- #02C1A7
-global- #db9114
-Tags- #00A2CD
-
 font-family: 'Noto Sans JP';
-font-family: 'Unica One', cursive;
+font-family: 'Source Code Pro', monospace;
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;900&family=Source+Code+Pro:wght@200&display=swap');
 
+/*External CSS*/
+
+.features-width  {
+	width:14rem;
+}
+
+@media screen and (max-width: 425px) {
+  .features-width {
+    width:auto;
+  }
+}
+
+/*----------------*/
 .minim-body{
   background-color: #222831;
   font-family: 'Noto Sans JP', sans-serif;
@@ -73,6 +82,12 @@ h1  {
   font-size: 2.5rem;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .left  {
   text-align: left;
 }
@@ -120,14 +135,13 @@ h1  {
 }
 
 button  {
-	margin: 1rem;
+  margin: 1rem;
+  padding: 10px 15px;
 }
 
 .button{
-  border-radius: 15px;	
   border: solid #EEEEEE 0.3rem;
   color: #222831;
-  padding: 15px;
   font-family: 'Noto Sans JP';
   background-color: #EEEEEE;
   text-decoration: none;
@@ -143,9 +157,7 @@ button  {
 }
 
 .button-outline {
-  border-radius: 15px;
   color: #EEEEEE;
-  padding: 15px;
   font-family: 'Noto Sans JP';
   background-color: #222831;
   border: solid #EEEEEE 0.3rem;
@@ -159,4 +171,19 @@ button  {
   border: solid #393E46 0.3rem;
   color: #393E46;
   text-decoration: none;
+}
+
+.card-dark  {
+  background-color: #393E46;
+  padding: 0.1rem 0.5rem 1rem;
+  margin: 1rem auto;
+  width: 20rem;
+}
+
+.card-light  {
+  background-color: #EEEEEE;
+  color: #222831;
+  padding: 0.1rem 0.5rem 1rem;
+  margin: 1rem auto;
+  width: 20rem;
 }
