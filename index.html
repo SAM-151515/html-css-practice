@@ -135,16 +135,16 @@
 	    <p>The Minim features two styles of buttons- Filled & Outline.</p>
 	  </div>
 	  <div>
-	    <button class="button" onclick="alert('I am a Filled button')">Filled button</button>
+	    <button class="button" onclick="alert('I'm Filled button')">Filled button</button>
 	  </div>
 	  <div>
-	    <button class="button-outline" onclick="alert('I am a Outline button')">Outline button</button>
+	    <button class="button-outline" onclick="alert('I'm Outline button')">Outline button</button>
 	  </div>
 
 	  <div class="code">
 	    <code>
-	      &ltbutton class="<u>button</u>" onclick="alert('I am a Filled button')"&gtFilled button&lt/button&gt <br>
-	      &ltbutton class="<u>button-outline</u>" onclick="alert('I am a Outline button')"&gtOutline button&lt/button&gt <br>
+	      &ltbutton class="<u>button</u>" onclick="alert('I'm Filled button')"&gtFilled button&lt/button&gt <br>
+	      &ltbutton class="<u>button-outline</u>" onclick="alert('I'm Outline button')"&gtOutline button&lt/button&gt <br>
 	    </code>
 	  </div>
     </div>	
@@ -158,7 +158,7 @@
       </div>
      <div>
         <p>Minim features two styles of cards, a dark and a light version.<br>Minim's cards can be used to display headings, paragraphs and links.</p>
-      </div>
+     </div>
       <div class="flex">
         <div class="card-dark">
           <div>
@@ -186,34 +186,73 @@
       </div>
 	  <div class="code">
 	    <code>
-		  &ltdiv class="<u>card-dark</u>"&gt <br>
-            &ltdiv&gt <br>
-	          &lth1&gtLorem Ipsum&lt/h1&gt <br>
-	        &lt/div&gt <br>
-	        &ltdiv&gt <br>
-	          &ltp&gtLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor pretium viverra suspendisse potenti nullam ac.&lt/p&gt <br>
-	        &lt/div&gt <br>
-	        &ltdiv class="<u>center</u>"&gt <br>
-	          &lta href="#"&gtLinks&lt/a&gt <br>
-	        &lt/div&gt <br>
-	      &lt/div&gt <br>
-		  <br>
-		  &ltdiv class="card-light"&gt <br>
-            &ltdiv&gt <br>
-	          &lth1&gtLorem Ipsum&lt/h1&gt <br>
-	        &lt/div&gt <br>
-	        &ltdiv&gt <br>
-	          &ltp&gtLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor pretium viverra suspendisse potenti nullam ac.&lt/p&gt <br>
-	        &lt/div&gt <br>
-	        &ltdiv class="center"&gt <br>
-	          &lta href="#"&gtLinks&lt/a&gt <br>
-	        &lt/div&gt <br>
-	      &lt/div&gt <br>
+		<pre>
+&ltdiv class="<u>card-dark</u>"&gt 
+  &ltdiv&gt 
+    &lth1&gtLorem Ipsum&lt/h1&gt
+  &lt/div&gt
+  
+  &ltdiv&gt
+    &ltp&gtLorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Tortor pretium viverra suspendisse potenti nullam ac.&lt/p&gt
+  &lt/div&gt
+  
+  &ltdiv class="<u>center</u>"&gt
+    &lta href="#"&gtLinks&lt/a&gt
+  &lt/div&gt
+&lt/div&gt
+
+
+&ltdiv class="<u>card-light</u>"&gt
+  &ltdiv&gt
+    &lth1&gtLorem Ipsum&lt/h1&gt
+  &lt/div&gt
+  
+  &ltdiv&gt
+    &ltp&gtLorem ipsum dolor sit amet, consectetur adipiscing elit, 
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    Tortor pretium viverra suspendisse potenti nullam ac.&lt/p&gt
+  &lt/div&gt
+  
+  &ltdiv class="<u>center</u>"&gt
+    &lta href="#"&gtLinks&lt/a&gt
+  &lt/div&gt
+&lt/div&gt
+		  </pre>
 		</code>
 	  </div>
     </div>
+	
+	<hr>
+	
+	  <!-- FORMS -->
 	<div>
-	  <!-- tsuzuku -->
+	  <div class="center">
+	    <h2>FORMS</h2>
+	  </div>
+	  <div>
+        <p>Every element in the form is made minimal by itself, so you just have to code it.</p>
+      </div>
+	  <form>
+	      <div class="flex">
+		    <div>
+			  <label for="name">First name:</label><br>
+			  <input type="text"><br>
+			</div>
+			<div>
+			  <label for="name">Email:</label><br>
+			  <input type="email"><br>
+			</div>
+			<div>
+			  <label for="name">Subject:</label><br>
+			  <input type="email"><br>
+			</div>
+		  </div>
+			<label>Your Message</label><br>
+			<textarea></textarea><br>
+			<input type="submit" value="Submit" class="center">
+      </form>
 	</div>
   </div>
   

@@ -187,3 +187,17 @@ button  {
   margin: 1rem auto;
   width: 20rem;
 }
+
+input, textarea  {
+	background-color: #393E46;
+	border: solid #EEEEEE 0.1rem;
+	padding: 0.75rem;
+	margin: 5px auto 15px;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #EEEEEE;
+}
+
+textarea  {
+	width: 41.55rem;
+	height: 15rem;
+}
