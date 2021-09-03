@@ -1,0 +1,19 @@
+/*
+body
+*/
+body {
+	background: #0F2027;
+}
+
+/* 
+Notepad 
+*/
+.notepad {
+	margin: 2.33% 33.33%;
+	width: 33.33%;
+	height: 600px;
+
+	background: linear-gradient(157.73deg, #B24592 0%, #F15F79 100%);
+	border-radius: 25px;
+}
+
