@@ -20,9 +20,10 @@ body {
 	border-radius: 25px;
 }
 
+
+/*----------------------MI-DO------------------------*/
 .title {
 	width: 50%;
-	height: 12.83%;
 
 	margin: 4.68% 25%;
 
@@ -30,7 +31,7 @@ body {
 	border-radius: 25px;
 }
 
-h1 {
+.name {
 	color: white;
 	text-align: center;
 	font-size: 64px;
@@ -38,6 +39,42 @@ h1 {
 	font-family: 'Rubik', sans-serif;
 }
 
+
+/*----------------------To-do------------------------*/
+.to-do {
+	width: 90%;
+	padding: 0.5px;
+
+	margin: auto;
+
+	background: #57837B;
+	border-radius: 25px;
+
+	text-align: center;
+	/*display: inline-flex;
+	justify-content: space-around;*/
+}
+
+.check-box {
+	height: 35px;
+	width: 35px;
+
+	border-radius: 15%;
+
+	background-color: #C9D8B6;
+	/*display: inline-block;*/
+	margin: 25px;
+}
+
+h2 {
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+
+
+/*----------------------Add Button------------------------*/
 .add-btn {
 	border-radius: 100%;
 	width: 50px;
