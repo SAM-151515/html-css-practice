@@ -45,14 +45,14 @@ body {
 	width: 90%;
 	padding: 0.5px;
 
-	margin: auto;
+	margin: 10px auto;
 
 	background: #57837B;
 	border-radius: 25px;
 
 	text-align: center;
-	/*display: inline-flex;
-	justify-content: space-around;*/
+	display: flex;
+	/*justify-content: space-around;*/
 }
 
 .check-box {
@@ -62,7 +62,6 @@ body {
 	border-radius: 15%;
 
 	background-color: #C9D8B6;
-	/*display: inline-block;*/
 	margin: 25px;
 }
 
