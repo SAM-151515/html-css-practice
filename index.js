@@ -8,15 +8,21 @@ if(toDos === null) {
 
 function add() {
 	const toDo = prompt("Please enter your To-do:", "");
-	toDoEl.innerHTML += `
-		<div class="to-do">
-			<div class="check-box" id="check-el">
-			</div>
-			<h2>${toDo}</h2>
-		</div>`
+	if(toDo == null) {
+		//Do Nothing
+	}
 
-	toDos.push(toDo)
-	localStorage.setItem("toDos", JSON.stringify(toDos))
+	else {
+		toDoEl.innerHTML += `
+			<div class="to-do">
+				<div class="check-box" id="check-el">
+				</div>
+				<h2>${toDo}</h2>
+			</div>`
+
+		toDos.push(toDo)
+		localStorage.setItem("toDos", JSON.stringify(toDos))
+	}
 }
 
 function renderListOnRefresh() {
