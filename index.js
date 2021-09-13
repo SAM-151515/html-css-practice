@@ -13,7 +13,7 @@ function createElement() {
 		for(let todo = 0; todo < toDoList.length; todo++) {
 		toDoEl.innerHTML += `
 		<div class="to-do">
-			<div class="check-box" id="check-el">
+			<div class="check-box" id="check-el" onclick="">
 			</div>
 			<h2>${toDoList[todo]}</h2>
 		</div>`
@@ -36,6 +36,7 @@ function add() {
 
 function del() {
 	localStorage.clear()
+	toDoList = []
 	createElement()
 }
 
